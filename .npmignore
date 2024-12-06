@@ -2,7 +2,13 @@
 
 node_modules
 
+.circleci
+.husky
+
 .editorconfig
+
+.eslintignore
+.eslintrc
 
 .github
 .gitattributes
@@ -17,3 +23,9 @@ node_modules
 
 # Deps
 .depsrc
+
+# Hooks
+.husky/hooks
+
+# Babel
+babel.config.*
