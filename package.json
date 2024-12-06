@@ -1,0 +1,32 @@
+{
+  "name": "eslint-merge",
+  "version": "0.0.1",
+  "description": "Merge configurations for ESLint 9",
+  "main": "./index.mjs",
+  "type": "module",
+  "author": {
+    "name": "Jonathan Perry for Sequence Media Limited",
+    "email": "sequencemedia@sequencemedia.net",
+    "url": "https://sequencemedia.net"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sequencemedia/eslint-merge.git"
+  },
+  "homepage": "https://github.com/sequencemedia/eslint-merge#readme",
+  "bugs": {
+    "url": "https://github.com/sequencemedia/eslint-merge/issues"
+  },
+  "dependencies": {
+    "@sequencemedia/eslint-merge": "0.0.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "exports": {
+    ".": "./index.mjs",
+    "./get-map-merge": "./get-map-merge.mjs",
+    "./merge": "./merge.mjs"
+  }
+}

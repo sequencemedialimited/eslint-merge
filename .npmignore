@@ -1,0 +1,19 @@
+.DS_Store
+
+node_modules
+
+.editorconfig
+
+.github
+.gitattributes
+.gitignore
+
+# NPM
+.npmignore
+.npmrc
+
+# NVM
+.nvmrc
+
+# Deps
+.depsrc
