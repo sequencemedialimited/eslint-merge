@@ -1,7 +1,35 @@
 # `eslint-merge`
 
-[ESLint](https://github.com/eslint/eslint) `v9` introduced a change to their [configuration files](https://eslint.org/docs/latest/use/configure/configuration-files) commonly known as _flat config_
+Merge Flat Config for ESLint `v9`
 
-Previously, configuration had been hierarchical, enabling developers to change their configuration per _directory_. A Project might have a _root_ and additional files in directories below the root to modify linting behaviour
+## Install
 
-`eslint-merge` enables developers to apply changes to _shared_ configs with minimal effort
+```shell
+npm i -D eslint-merge
+```
+
+## Use
+
+The `merge` function combines two objects and returns the result
+
+```javascript
+import merge from 'eslint-merge'
+```
+
+The first argument should be a config, and the second argument an object which contains your changes
+
+```javascript
+const result = merge(sharedConfig, changes)
+```
+
+In `eslint.config.*`
+
+```javascript
+export default [
+  merge(sharedConfig, {
+    files: [
+      'src/**/*.{mjs,cjs}'
+    ]
+  })
+]
+```
