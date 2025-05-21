@@ -24,7 +24,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/eslint-merge": "0.0.28"
+    "@sequencemedia/eslint-merge": "0.0.29"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
