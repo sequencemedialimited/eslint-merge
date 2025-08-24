@@ -24,13 +24,13 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@sequencemedia/eslint-merge": "0.0.44"
+    "@sequencemedia/eslint-merge": "0.0.45"
   },
   "devDependencies": {
     "@babel/core": "^7.28.3",
     "@babel/eslint-parser": "^7.28.0",
     "@babel/preset-env": "^7.28.3",
-    "chai": "^5.3.1",
+    "chai": "^6.0.1",
     "core-js": "^3.45.1",
     "eslint": "8.57.1",
     "eslint-config-standard": "^17.1.0",
